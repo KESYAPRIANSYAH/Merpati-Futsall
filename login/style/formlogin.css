@@ -1,0 +1,13 @@
+body {
+  background-image: url("../image/lapangan.jpg");
+  background-size: cover;
+}
+.hero {
+  opacity: 0.8;
+}
+@media (max-width: 600px) {
+  body {
+    background-image: url("../image/lapangan2.jpg");
+    background-size: auto;
+  }
+}

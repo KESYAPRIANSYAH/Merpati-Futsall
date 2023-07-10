@@ -1,0 +1,93 @@
+.element,
+html {
+  scrollbar-width: none;
+}
+html::-webkit-scrollbar,
+.element::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  margin-top: 50px;
+}
+.card:hover img {
+  transform: scale(1.1);
+  transition: all 0.8s ease;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.content {
+  position: absolute;
+  color: white;
+  bottom: 80px;
+  left: 43%;
+}
+.content h5 {
+  font-size: 30px;
+}
+
+.row {
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 30px;
+}
+#myCarousel {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px;
+}
+.carousel-control-prev {
+  position: absolute;
+  left: 80px;
+}
+.carousel-control-next {
+  position: absolute;
+  right: 80px;
+}
+.carousel-indicators {
+  position: absolute;
+  bottom: 100px;
+}
+
+@media (max-width: 600px) {
+  #myCarousel {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 60px;
+  }
+  .content {
+    position: absolute;
+    color: white;
+    bottom: 20px;
+    left: 40%;
+  }
+  .content h5 {
+    font-size: 15px;
+  }
+
+  .carousel-control-prev {
+    position: absolute;
+    left: 10px;
+  }
+  .carousel-control-next {
+    position: absolute;
+    right: 10px;
+  }
+  .carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+  }
+  h1 {
+    font-size: 18px;
+  }
+  .container {
+    margin-top: 20px;
+  }
+}

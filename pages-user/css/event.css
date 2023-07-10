@@ -1,0 +1,55 @@
+.col-sm img {
+  max-width: 400px;
+  height: auto;
+}
+.judul {
+  font-size: 35px;
+  font-weight: bold;
+}
+.col-sm {
+  margin: 20px;
+}
+.container {
+  margin-top: 100px;
+}
+.col-sm h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.col-sm h5 {
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .col-sm img {
+    width: 270px;
+    height: auto;
+  }
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+
+    margin-top: 10px;
+  }
+  .col-sm {
+    margin: 40px;
+  }
+
+  .col-sm h1 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .col-sm h5 {
+    font-size: 15px;
+    font-weight: 100;
+  }
+  .judul {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .container {
+    margin-top: 10px;
+  }
+}

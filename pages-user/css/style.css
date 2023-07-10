@@ -1,0 +1,54 @@
+.element,
+html {
+  scrollbar-width: none;
+}
+html::-webkit-scrollbar,
+.element::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  margin-top: 200px;
+}
+.card {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+.row {
+  margin-top: 100px;
+}
+
+.card-img-top {
+  transition: all 0.3s ease;
+}
+.lapangan {
+  text-align: center;
+  font-size: 30px;
+}
+.booking {
+  background-color: black;
+}
+#myCarousel {
+  margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+  #myCarousel {
+    margin-top: 0px;
+  }
+  .row {
+    margin-top: 20px;
+  }
+  .lapangan {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .container {
+    margin-top: 20px;
+  }
+}
